@@ -1,0 +1,9 @@
+version: 3
+
+tasks:
+  run:
+    aliases:
+      - run
+    desc: "Run http server"
+    cmds:
+      - go run cmd/run/main.go
